@@ -1,0 +1,141 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 80%;       
+    margin: auto;    
+    display: flex;  
+    align-items: center;  
+}
+
+.header {
+    background-color: black;
+    border-bottom: 5px solid #1bb8f6;
+    padding: 10px 0;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.titulo {
+    color: #00bcd4;
+    
+}
+.navbar {
+    list-style: none;
+    gap: 70px;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgba(241, 177, 105, 0.926);
+}
+
+.navbar li {
+    color: rgba(241, 177, 105, 0.926);
+}
+
+.banner {
+    height: 600px;
+    background: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-bottom: 30px solid black;
+}
+
+.banner .container{
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.banner p {
+    color: white;
+    font-size: 37px;
+    text-align: left;
+    width: 15px; 
+    line-height: 1.2
+}
+
+.banner span {
+    font-weight: bold;
+}
+
+.social {
+    padding: 60px 0;
+    background-color: #ececec;
+
+}
+
+.social .container{
+    justify-content: center;
+}
+
+
+.boxes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.box {
+    width: 280px; 
+    text-align: center
+}
+
+.box h4 {
+    color: #e6005a; 
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.box p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.4;
+    
+}
+
+.box img {
+    height: 150px;
+    width: 150px;
+    
+}
+
+.box:nth-child(1) img {
+    content: url("../assets/imgs/planet-earth_color.png");
+  
+}
+
+.box:nth-child(2) img {
+    content: url("../assets/imgs/lightbulb_color.png");
+    
+}
+
+.box:nth-child(3) img {
+    content: url("../assets/imgs/growth_color.png");
+ 
+}
+
+
+.footer {
+    background-color: #1bb8f6;
+    color: white;
+    text-align: center;
+    padding-bottom: 80px;
+    border-top: 1px solid navy;
+}
+
+.footer .container {
+    justify-content: center;
+}
+
+.footer h4 {
+    font-size: 18px;
+}
